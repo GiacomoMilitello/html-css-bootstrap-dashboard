@@ -8,6 +8,11 @@
 .white-svg{
     fill: white;
 }
+.orange-rounded-svg{
+    background-color: #fb5838;
+    width: 20px;
+    height: 20px;
+}
 a{
     text-decoration: none;
 }
@@ -63,13 +68,16 @@ main{
     top: 60px;
     right: 0;
     left: 50px;
-    background-color: lightblue;
+    background-color: #f8f9fa;
     height: 100vh;
     overflow: auto;
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 10px;
     /* padding: 20px; */
+}
+#central-c{
+    padding: 5px;
 }
 .blue a{
     background-color: #163dbc;
