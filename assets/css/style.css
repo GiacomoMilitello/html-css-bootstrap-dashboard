@@ -1,7 +1,10 @@
 *{
-    /* border: 1px dashed lightcoral; */
+    /* border: 1px solid black; */
 }
 /* -- COLOR -- */
+.blue{
+    background-color: #2353ee;
+}
 .white-svg{
     fill: white;
 }
@@ -12,32 +15,69 @@ ul{
     list-style: none;
     padding-left: 0;
 }
-nav{
-    background-color: #f8f9fa;
-    width: 180vw;
-    height: 60px;
+body{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
 }
 main{
-    margin-top: 60px;
+    height: 100vh;
+    display: flex;
 }
-#side-left{
+
+/* --- UPGRADE BAR --- */
+#g-nav{
+    height: 60px;
+    /* width: 90%; */
+    background-color: transparent;
     position: fixed;
-    left: 0;
+    top: 0;
+    right: 0;
+    left: 0px;
+    z-index: 1;
+}
+/* --- ASIDE --- */
+#g-aside{
+    margin-top: 60px;
+    width: 50px;
     height: calc(100vh - 60px);
-    /* width: 180px; */
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
     background-color: #182335;
     background-image: url(../img/sidebar-bg.png);
+    padding-bottom: 70px;
+    justify-content: space-between;
 }
-/* #main-center{
-    background-color: rgb(219, 131, 15);
-    width: 100%;
+/* --- ASIDE LARGE VERSION --- */
+@media screen and (min-width: 992px) {
+    #g-aside{
+        width: 180px;
+    }
 }
-#main-top{
-    background-color: #5072df;
-    height: 150px;
-    width: 100%;
+
+/* --- CENTRAL --- */
+#central{
+    position: fixed;
+    top: 60px;
+    right: 0;
+    left: 50px;
+    background-color: lightblue;
+    height: 100vh;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    /* padding: 20px; */
 }
-#main-center div{
-    height: 180px;
-    background-color: aquamarine;
-} */
+.blue a{
+    background-color: #163dbc;
+}
+/* --- CENTRAL LARGE VERSION --- */
+@media screen and (min-width: 992px) {
+    #central{
+        left: 180px;
+    }
+
+}
