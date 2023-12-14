@@ -1,0 +1,43 @@
+*{
+    /* border: 1px dashed lightcoral; */
+}
+/* -- COLOR -- */
+.white-svg{
+    fill: white;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+    padding-left: 0;
+}
+nav{
+    background-color: #f8f9fa;
+    width: 180vw;
+    height: 60px;
+}
+main{
+    margin-top: 60px;
+}
+#side-left{
+    position: fixed;
+    left: 0;
+    height: calc(100vh - 60px);
+    /* width: 180px; */
+    background-color: #182335;
+    background-image: url(../img/sidebar-bg.png);
+}
+/* #main-center{
+    background-color: rgb(219, 131, 15);
+    width: 100%;
+}
+#main-top{
+    background-color: #5072df;
+    height: 150px;
+    width: 100%;
+}
+#main-center div{
+    height: 180px;
+    background-color: aquamarine;
+} */
