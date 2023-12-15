@@ -8,6 +8,12 @@
 .white-svg{
     fill: white;
 }
+.gray-svg{
+    fill: #575555;
+}
+.orange-svg{
+    fill: #e5933a;
+}
 .orange-rounded-svg{
     background-color: #fb5838;
     width: 20px;
@@ -25,25 +31,25 @@ body{
     height: 100vh;
     position: relative;
 }
-main{
-    height: 100vh;
+/* main{
+    height: 100%;
     display: flex;
-}
+} */
 
 /* --- UPGRADE BAR --- */
-#g-nav{
+/* #g-nav{
     height: 60px;
-    /* width: 90%; */
+    width: 90%;
     background-color: transparent;
     position: fixed;
     top: 0;
     right: 0;
     left: 0px;
     z-index: 1;
-}
+} */
 /* --- ASIDE --- */
 #g-aside{
-    margin-top: 60px;
+    /* margin-top: 60px; */
     width: 50px;
     height: calc(100vh - 60px);
     padding: 15px;
