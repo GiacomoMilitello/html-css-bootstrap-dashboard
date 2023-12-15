@@ -69,6 +69,11 @@ body{
 #central-c{
     padding: 5px;
 }
+.offcanvas-body label{
+    height: 40px;
+    display: flex;
+    align-items: end;
+}
 .blue a{
     background-color: #163dbc;
 }
