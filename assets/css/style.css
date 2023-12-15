@@ -31,22 +31,6 @@ body{
     height: 100vh;
     position: relative;
 }
-/* main{
-    height: 100%;
-    display: flex;
-} */
-
-/* --- UPGRADE BAR --- */
-/* #g-nav{
-    height: 60px;
-    width: 90%;
-    background-color: transparent;
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0px;
-    z-index: 1;
-} */
 /* --- ASIDE --- */
 #g-aside{
     /* margin-top: 60px; */
@@ -88,6 +72,9 @@ body{
 .blue a{
     background-color: #163dbc;
 }
+
+/* stato central table */
+
 /* --- CENTRAL LARGE VERSION --- */
 @media screen and (min-width: 992px) {
     #central{
