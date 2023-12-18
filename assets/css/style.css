@@ -45,6 +45,9 @@ body{
     padding-bottom: 70px;
     justify-content: space-between;
 }
+#g-aside a:hover{
+    background-color: #9b9a9a;
+}
 /* --- ASIDE LARGE VERSION --- */
 @media screen and (min-width: 992px) {
     #g-aside{
