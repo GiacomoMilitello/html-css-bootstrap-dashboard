@@ -72,6 +72,9 @@ body{
 #central-c{
     padding: 5px;
 }
+/* .offcanvas{
+    width: 1000px;
+} */
 .offcanvas-body label{
     height: 40px;
     display: flex;
